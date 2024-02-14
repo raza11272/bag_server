@@ -21,7 +21,7 @@ const token = localStorage.getItem("jwt");
 const client = new ApolloClient({
   ssrMode: typeof window === "undefined",
   link: createUploadLink({
-    uri: "http://localhost:1337/graphql",
+    uri: "bagclient-production.up.railway.app/graphql",
     headers: {
       Authorization: token ? `Bearer ${token}` : "",
     },
