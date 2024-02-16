@@ -280,7 +280,7 @@ const MemberShipForm = () => {
             name="gender"
             render={({ field }) => (
               <FormItem>
-                <FormLabel>gender</FormLabel>
+                <FormLabel>Gender</FormLabel>
                 <FormControl>
                   <RadioGroup
                     onValueChange={field.onChange}
