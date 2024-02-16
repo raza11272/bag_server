@@ -59,7 +59,7 @@ const Home = () => {
 
   const GET_ALL_EXCMMITTE = gql`
     query ExecutiveCommittees {
-      executiveCommittees(pagination: { limit: 100 }) {
+      executiveCommittees(pagination:{ limit: 100 }) {
         data {
           attributes {
             title
