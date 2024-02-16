@@ -142,7 +142,9 @@ const Navbar = () => {
       <div className="container px-6 md:px-16 py-4 mx-auto md:flex md:justify-between md:items-center">
         <div className="flex  items-center justify-between">
           <div className="w-14 h-14">
-            <img src="/img/logo.webp" alt="" />
+              <Link to="/">
+              <img src="/img/logo.webp" alt="" />
+            </Link>
           </div>
 
           {/* <!-- Mobile menu button --> */}
