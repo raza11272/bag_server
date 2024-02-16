@@ -4,7 +4,7 @@ import LoaderSpin from "@/lib/components/LoaderSpin";
 
 const ExcCommittee = () => {
   const GET_ALL_EXCMMITTE = gql`
-    query ExecutiveCommittees {
+    query ExecutiveCommittees(pagination: { limit: 100 }) {
       executiveCommittees {
         data {
           attributes {
