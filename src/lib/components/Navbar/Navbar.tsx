@@ -138,7 +138,7 @@ const Navbar = () => {
   const dispatch = useDispatch();
 
   return (
-    <nav className="relative  bg-white shadow ">
+    <nav className="fixed top-0 left-0 w-full h-[10vh] z-50 bg-white shadow ">
       <div className="container px-6 md:px-16 py-4 mx-auto md:flex md:justify-between md:items-center">
         <div className="flex  items-center justify-between">
           <div className="w-14 h-14">
