@@ -66,7 +66,7 @@ const App = () => {
     <BrowserRouter>
       <div className="max-w-[1440px] flex flex-col min-h-screen justify-between  m-auto">
         <Navbar />
-        <div className="">
+        <div className="mt-[10vh]">
           <Routes>
             <Route path="/" element={<Home />} />
             {/* about us  */}
